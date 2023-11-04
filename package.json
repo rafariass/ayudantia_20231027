@@ -2,7 +2,11 @@
   "author": "Raul Farias S",
   "name": "ayudantia_20231027",
   "description": "Proyecto Ayudantia Backend con JavaScript",
-  "keywords": ["Ayudantia", "Backend", "JavaScript"],
+  "keywords": [
+    "Ayudantia",
+    "Backend",
+    "JavaScript"
+  ],
   "private": true,
   "version": "0.0.1",
   "license": "MIT",
@@ -21,6 +25,7 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "bcryptjs": "2.4.3",
     "cors": "2.8.5",
     "dotenv": "16.3.1",
     "express": "4.18.2",

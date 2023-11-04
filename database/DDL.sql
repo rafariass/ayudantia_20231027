@@ -9,7 +9,7 @@ CREATE DATABASE ayudantia_backend;
 CREATE TABLE usuarios (
   id        SERIAL        NOT NULL,
   email     VARCHAR(50)   NOT NULL    UNIQUE,
-  pass      VARCHAR(50)   NOT NULL,
+  pass      VARCHAR       NOT NULL,
   PRIMARY KEY (id)
 );
 
